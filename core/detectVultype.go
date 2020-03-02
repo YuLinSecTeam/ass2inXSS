@@ -61,7 +61,7 @@ func DetectVulType(targetUrl string,reqData string) []int { //此时传入的参
 			matchRight := probeRightRe.MatchString(r)
 			matchesIndex := matchesIndex0
 			if len(matches) >0 {
-				fmt.Println(matches)//debug
+				//fmt.Println(matches)//debug
 				var oCI,cCI int
 				subBody := SubStr1(r,matchesIndex[0])
 				//fmt.Println(probeExtra,temp)debug
