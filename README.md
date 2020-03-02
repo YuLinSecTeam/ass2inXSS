@@ -4,7 +4,10 @@
   After finishing scanning, it will list xss vuln details according to the context. 
   With this, you can get which type the vuln belongs and make decision on which payload to choose.
   
-
+## install
+```
+go get -u github.com/YuLinSecTeam/ass2inXSS
+```
 ## usage
   
 ```
