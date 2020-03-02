@@ -2,7 +2,7 @@ package main
 
 import (
 	"flag"
-	"./core"
+	"github.com/YuLinSecTeam/ass2inXSS/core"
 )
 
 
