@@ -33,3 +33,15 @@ Context: html
 VulPara: a
 VerboseInfo: use normal html tag
 ```
+
+## how to test url list?
+### url.txt
+```
+http://brutelogic.com.br/xss.php?a=1
+http://brutelogic.com.br/xss.php?b1=1
+
+```
+### one liner command
+```
+cat url.txt | xargs -t -l ass2inXSS -url
+```
