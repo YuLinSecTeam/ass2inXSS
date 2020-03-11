@@ -41,7 +41,7 @@ http://brutelogic.com.br/xss.php?a=1
 http://brutelogic.com.br/xss.php?b1=1
 
 ```
-### one liner command
+### one line command(you can difine a shell func to simplify)
 ```
 cat url.txt | xargs -t -l ass2inXSS -url
 
