@@ -44,4 +44,25 @@ http://brutelogic.com.br/xss.php?b1=1
 ### one liner command
 ```
 cat url.txt | xargs -t -l ass2inXSS -url
+
+you will get:
+
+ass2inXSS -url http://brutelogic.com.br/xss.php?a=1 
+
+Context: html
+VulPara: a
+VerboseInfo: use normal html tag
+
+ass2inXSS -url http://brutelogic.com.br/xss.php?b1=1 
+
+Context: htmli
+VulPara: b1
+VerboseInfo: ' or " can use in html tag
+
+
+Context: htmlo
+VulPara: b1
+VerboseInfo: '> or "> can break out html tag
+
+
 ```
